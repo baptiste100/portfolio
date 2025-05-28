@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+body {
+    background-color: rgb(29, 33, 33);
+    color: white;
+}
+
+a:hover {
+    color: rgb(245, 209, 39);
+}
