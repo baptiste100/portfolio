@@ -35,7 +35,7 @@ export const PROJECTS : ProjectData[] = [
     {
         title: "Ressources inhumaines",
         description: "Jeu de gestion RH",
-        technos: ["unity"],
+        technos: ["csharp","unity"],
         github: ""
     },
 ];

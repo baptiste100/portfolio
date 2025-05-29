@@ -8,6 +8,7 @@ import androidIcon from "../assets/icons/android-removebg-preview.png";
 import javaIcon from "../assets/icons/java-removebg-preview.png";
 import prismaIcon from "../assets/icons/prisma-removebg-preview.png";
 import unityIcon from "../assets/icons/unity-removebg-preview.png";
+import csharpIcon from "../assets/icons/csharp-removebg-preview.png";
 
 export const TECHNO_INFOS: Record<string, TechnoData> = {
     "javascript" : {
@@ -45,5 +46,9 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
     "unity" : {
         logo: unityIcon,
         lien: "https://unity.com/fr"
+    },
+    "csharp" : {
+        logo: csharpIcon,
+        lien: "https://dotnet.microsoft.com/fr-fr/languages/csharp#:~:text=C%23%20est%20un%20langage%20de,langages%20de%20programmation%20sur%20GitHub."
     }
 }

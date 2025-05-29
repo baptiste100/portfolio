@@ -1,11 +1,3 @@
-import typescriptIcon from "../assets/icons/typescript-removebg-preview.png"
-import javascriptIcon from "../assets/icons/javascript.png"
-import reactIcon from "../assets/icons/react-removebg-preview.png"
-import expressIcon from "../assets/icons/express-removebg-preview.png"
-import kotlinIcon from "../assets/icons/kotlin-removebg-preview.png"
-import androidIcon from "../assets/icons/android-removebg-preview.png"
-import javaIcon from "../assets/icons/java-removebg-preview.png"
-import prismaIcon from "../assets/icons/prisma-removebg-preview.png"
 import githubIcon from "../assets/icons/github-white.png"
 import type {ProjectData, TechnoData} from "../types.ts";
 import { TECHNO_INFOS } from "../data/technos.ts";
