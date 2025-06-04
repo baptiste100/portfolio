@@ -12,7 +12,7 @@ export const PROJECTS : ProjectData[] = [
         title: "ChecklistApp",
         description: "Application de gestion de tâches",
         technos: ["kotlin", "android"],
-        github: ""
+        github: "https://github.com/baptiste100/checklist-app"
     },
     {
         title: "ABC API",
@@ -24,13 +24,13 @@ export const PROJECTS : ProjectData[] = [
         title: "ABC Web",
         description: "Application web de gestion de livres et d'auteurs",
         technos: ["typescript", "react"],
-        github: ""
+        github: "https://github.com/baptiste100/w42-react-books/tree/main/tp5"
     },
     {
         title: "ABC App",
         description: "Application mobile de gestion de livres et d'auteurs",
         technos: ["java", "android"],
-        github: ""
+        github: "https://github.com/baptiste100/p42-android-books"
     },
     {
         title: "Ressources inhumaines",
