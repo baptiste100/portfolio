@@ -1,11 +1,13 @@
 @import "tailwindcss";
+@theme {
+    --color-customBlack: #242423;
+    --color-customGray: #333533;
+    --color-customWhite: #E8EDDF;
+    --color-customLightGray: #CFDBD5;
+    --color-customYellow: #F5CB5C;
+}
 
 body {
-    background-color: rgb(29, 33, 33);
+    background-color: var(--color-customGray);
     color: white;
 }
-/*
-a:hover {
-    color: rgb(245, 209, 39);
-}
-*/

@@ -1,14 +1,27 @@
 import {NavLink, Outlet} from "react-router-dom";
+import {Link} from "react-scroll";
 
 export const Root = () => {
     return (<div>
         <header>
-            <MyAppNav/>
+            <OnePageAppNav/>
         </header>
-        <main>
+        <main className="mt-25">
             <Outlet/>
         </main>
     </div>)
+}
+
+export function OnePageAppNav() {
+    return (
+        <div className="fixed top-0 w-full z-50 bg-customBlack text-white flex justify-between text-3xl font-bold pt-3 pb-3 px-20 mb-10 gap-5 cursor-pointer">
+            <nav className="flex items-center gap-10 px-5">
+                <Link smooth={true} duration={500} offset={-100} className="p-2 rounded-2xl hover:bg-customYellow hover:text-customBlack " to="home" > Accueil </Link>
+                <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-customYellow hover:text-customBlack" to="projects"> Projets </Link>
+                <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-customYellow hover:text-customBlack" to="contact"> Contact </Link>
+            </nav>
+        </div>
+    )
 }
 
 export function MyAppNav() {

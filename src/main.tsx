@@ -9,13 +9,14 @@ import Projects from "./pages/Projects.tsx";
 import Contact from "./pages/Contact.tsx";
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
-    <Routes>
-        <Route path='/' element={ <Root/> }>
-            <Route path="home" element={ <Home/> }/>
-            <Route path="projects" element={ <Projects/> }/>
-            <Route path="contact" element={ <Contact/> }/>
-        </Route>
-    </Routes>
-  </BrowserRouter>,
+    // <BrowserRouter>
+    //   <Routes>
+    //       <Route path='/' element={ <Root/> }>
+    //           <Route path="home" element={ <Home/> }/>
+    //           <Route path="projects" element={ <Projects/> }/>
+    //           <Route path="contact" element={ <Contact/> }/>
+    //       </Route>
+    //   </Routes>
+    // </BrowserRouter>
+    <App />
 )
