@@ -9,5 +9,6 @@
 
 body {
     background-color: var(--color-customGray);
+    /*background-image: linear-gradient(to bottom, #F5CB5C, #333533);*/
     color: white;
 }

@@ -5,9 +5,9 @@ import { TECHNO_INFOS } from "../data/technos.ts";
 
 export default function Project({ title, description, technos, github } : ProjectData) {
     return (
-        <div className="relative bg-customBlack shadow-lg rounded-xl p-6 hover:shadow-2xl transition duration-300 ease-in-out border-2 border-customGray hover:border-customYellow">
+        <div className="hover:scale-[1.02] hover:shadow-xl transition-all duration-300 cursor-pointer relative bg-customBlack shadow-lg rounded-xl p-6 hover:shadow-2xl ease-in-out border-2 border-customGray hover:border-customYellow">
             <div className="flex justify-between">
-                <h1 className="text-2xl font-bold mb-2 text-customWhite">{title}</h1>
+                <h1 className="text-2xl font-bold mb-2">{title}</h1>
             </div>
             <p className="text-customLightGray mb-4">{description}</p>
             <div className="flex items-center justify-between">
@@ -19,7 +19,7 @@ export default function Project({ title, description, technos, github } : Projec
                     ))}
                 </div>
             </div>
-            { github && <a className="group absolute bottom-5 right-5 flex flex-row border p-2 rounded-lg gap-1 hover:bg-customYellow hover:text-customGray" href={github} target="_blank">
+            { github && <a className="group transition duration-300 absolute bottom-5 right-5 flex flex-row border p-2 rounded-lg gap-1 hover:bg-customYellow hover:text-customGray" href={github} target="_blank">
                 <p>🠒</p>
                 <img className="max-w-[25px] block group-hover:hidden" alt="github" src={githubIconWhite}/>
                 <img className="max-w-[25px] hidden group-hover:block" alt="github" src={githubIconBlack}/>
