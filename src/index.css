@@ -1,14 +1,21 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 @theme {
     --color-customBlack: #242423;
     --color-customGray: #333533;
     --color-customWhite: #E8EDDF;
     --color-customLightGray: #CFDBD5;
     --color-customYellow: #F5CB5C;
+    --font-inter: "Inter";
+}
+
+* {
+    font-family: 'Inter', sans-serif;
 }
 
 body {
     background-color: var(--color-customGray);
-    /*background-image: linear-gradient(to bottom, #F5CB5C, #333533);*/
+    background-image: linear-gradient(to left, var(--color-customBlack), var(--color-customGray), var(--color-customBlack));
     color: white;
 }
