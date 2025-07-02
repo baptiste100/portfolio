@@ -29,8 +29,8 @@ export default function Contact () {
     }
 
     return (
-        <div className="flex flex-col justify-start items-start p-10 gap-3">
-            <h1 className="text-2xl mb-1"> Contact </h1>
+        <div className="flex flex-col justify-start items-start px-10 p-5 gap-3">
+            <h1 className="text-3xl mb-1"> Contact </h1>
             <a href="/cv_baptiste_kieffer.pdf" download className="group transition duration-300  border border-transparent flex p-2 rounded-lg gap-4 font-bold hover:border-customYellow hover:text-customYellow" >
                 <Download/>
                 <p>Télécharger mon CV</p>
