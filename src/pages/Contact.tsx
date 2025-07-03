@@ -29,27 +29,37 @@ export default function Contact () {
     }
 
     return (
-        <div className="flex flex-col justify-start items-start px-10 p-5 gap-3">
+        <div className="flex flex-col justify-start items-start px-10 p-5 gap-2">
             <h1 className="text-3xl mb-1"> Contact </h1>
-            <a href="/cv_baptiste_kieffer.pdf" download className="group transition duration-300  border border-transparent flex p-2 rounded-lg gap-4 font-bold hover:border-customYellow hover:text-customYellow" >
-                <Download/>
-                <p>Télécharger mon CV</p>
+            <a href="/cv_baptiste_kieffer.pdf" download className="module-border-wrap group transition duration-300 border border-transparent p-[2px] rounded-lg gap-4 font-bold hover:text-customYellow hover:border-customYellow" >
+                <div className="group-hover:bg-color1 rounded-sm p-2 flex gap-4">
+                    <Download/>
+                    <p className="group-hover:bg-gradient-to-tl group-hover:from-colorA group-hover:via-colorB group-hover:to-colorA group-hover:bg-clip-text group-hover:text-transparent">Télécharger mon CV</p>
+                </div>
             </a>
-            <button onClick={handleCopyClick} className="group transition duration-300  border border-transparent rounded-lg flex p-2 gap-4 hover:text-customYellow hover:border-customYellow hover:cursor-pointer">
-                <Mail className="block group-hover:hidden" />
-                <Mail color="#F5CB5C" className="transition duration-300 hidden group-hover:block" />
-                <p className="font-bold"> {email} </p>
-                {emailCopied ? <Check/> : <Copy/> }
+            <button onClick={handleCopyClick} className="module-border-wrap group transition duration-300  border border-transparent rounded-lg flex p-[2px] gap-4 hover:text-customYellow hover:border-customYellow hover:cursor-pointer font-bold">
+                <div className="group-hover:bg-color1 rounded-sm p-2 flex gap-4">
+                    <Mail className="block group-hover:hidden" />
+                    <Mail color="#F5CB5C" className="transition duration-300 hidden group-hover:block" />
+                    <p className="group-hover:bg-gradient-to-tl group-hover:from-colorA group-hover:via-colorB group-hover:to-colorA group-hover:bg-clip-text group-hover:text-transparent"> {email} </p>
+                    {emailCopied ? <Check/> : <Copy/> }
+                </div>
             </button>
-           <a className="group transition duration-300  border border-transparent flex p-2 rounded-lg gap-4 font-bold hover:border-customYellow hover:text-customYellow" href={"https://github.com/baptiste100"} target="_blank">
-               <img className="w-6 block group-hover:hidden" alt="github" src={githubWhiteIcon}/>
-               <img className="w-6 hidden group-hover:block" alt="github" src={githubYellowIcon}/>
-               <p> baptiste100 </p>
-           </a>
-            <a className="group transition duration-300  border border-transparent flex p-2 rounded-lg gap-4 font-bold hover:border-customYellow hover:text-customYellow" href="https://www.linkedin.com/in/baptistekieffer/" target="_blank">
-                <img className="w-6 block group-hover:hidden" alt="linkedin" src={linkedinWhiteIcon}/>
-                <img className="w-6 hidden group-hover:block" alt="linkedin" src={linkedinYellowIcon}/>
-                <p className=""> baptistekieffer </p>
+            <a className="module-border-wrap group transition duration-300 border border-transparent p-[2px] rounded-lg font-bold" href={"https://github.com/baptiste100"} target="_blank">
+                <div className="group-hover:bg-color1 rounded-sm p-2 flex gap-4">
+                    <img className="w-6 block group-hover:hidden" alt="github" src={githubWhiteIcon}/>
+                    <img className="w-6 hidden group-hover:block" alt="github" src={githubYellowIcon}/>
+                    <p className="group-hover:bg-gradient-to-tl group-hover:from-colorA group-hover:via-colorB group-hover:to-colorC group-hover:bg-clip-text group-hover:text-transparent">
+                        baptiste100
+                    </p>
+                </div>
+            </a>
+            <a className="module-border-wrap group transition duration-300  border border-transparent flex p-[2px] rounded-lg gap-4 font-bold" href="https://www.linkedin.com/in/baptistekieffer/" target="_blank">
+                <div className="group-hover:bg-color1 rounded-sm p-2 flex gap-4">
+                    <img className="w-6 block group-hover:hidden" alt="linkedin" src={linkedinWhiteIcon}/>
+                    <img className="w-6 hidden group-hover:block" alt="linkedin" src={linkedinYellowIcon}/>
+                    <p className="group-hover:bg-gradient-to-tl group-hover:from-colorA group-hover:via-colorB group-hover:to-colorC group-hover:bg-clip-text group-hover:text-transparent"> baptistekieffer </p>
+                </div>
             </a>
         </div>
     )

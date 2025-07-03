@@ -14,11 +14,12 @@ export const Root = () => {
 
 export function OnePageAppNav() {
     return (
-        <div className="fixed top-0 w-full z-50 bg-gradient-to-l from-customBlack via-customGray to-customBlack  text-white flex justify-between text-2xl font-bold pt-3 pb-3 px-20 mb-10 gap-5 cursor-pointer">
+        <div className="fixed top-0 w-full z-50 bg-gradient-to-l from-color1 via-color2 to-color1  text-white flex justify-between text-xl font-bold pt-3 pb-3 px-20 mb-10 gap-5 cursor-pointer">
             <nav className="flex items-center gap-10 px-5">
-                <Link smooth={true} duration={500} offset={-100} className="p-2 rounded-2xl hover:bg-customYellow hover:text-customBlack " to="home" > Accueil </Link>
-                <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-customYellow hover:text-customBlack" to="projects"> Projets </Link>
-                <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-customYellow hover:text-customBlack" to="contact"> Contact </Link>
+                <Link smooth={true} duration={500} offset={-100} className="p-2 rounded-2xl hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customBlack " to="home" > Accueil </Link>
+                <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customBlack" to="technos"> Technologies </Link>
+                <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customBlack" to="projects"> Projets </Link>
+                <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customBlack" to="contact"> Contact </Link>
             </nav>
         </div>
     )

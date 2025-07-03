@@ -8,6 +8,18 @@
     --color-customLightGray: #CFDBD5;
     --color-customYellow: #F5CB5C;
     --font-inter: "Inter";
+
+    --color-color1: #0D1B2B;
+    --color-color2: #1C263D;
+    --color-color3: #435B7B;
+    --color-color4: #7C90AD;
+    --color-color5: #E6E7E4;
+
+    --color-colorA: #A89723;
+    --color-colorB: #FFEB69;
+    --color-colorC: #F5DF4D;
+    --color-colorD: #7C90AD;
+    --color-colorE: #E6E7E4;
 }
 
 * {
@@ -15,7 +27,22 @@
 }
 
 body {
-    background-color: var(--color-customGray);
-    background-image: linear-gradient(to left, var(--color-customBlack), var(--color-customGray), var(--color-customBlack));
+    background-image: linear-gradient(to left, var(--color-color1), var(--color-color2), var(--color-color1));
     color: white;
+}
+
+.module-border-wrap {
+    position: relative;
+}
+
+.module-border-wrap:hover {
+    background: linear-gradient(to left top, var(--color-colorA), var(--color-colorB), var(--color-colorA));
+}
+
+.gradient-text:hover {
+    display: inline-block;
+    background: linear-gradient(to left top, var(--color-colorA), var(--color-colorB), var(--color-colorC));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
