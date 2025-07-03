@@ -3,19 +3,25 @@ import Home from "./pages/Home.tsx";
 import Projects from "./pages/Projects.tsx";
 import Contact from "./pages/Contact.tsx";
 import {Root} from "./root.tsx";
+import About from "./pages/TechnoList.tsx";
+import LanguagesList from "./pages/TechnoList.tsx";
+import TechnoList from "./pages/TechnoList.tsx";
 
 export default function App() {
     return (
         <div>
             <Element name="home">
                 <Root/>
-                <Home />
+                <Home/>
+            </Element>
+            <Element name="technos">
+                <TechnoList/>
             </Element>
             <Element name="projects">
-                <Projects />
+                <Projects/>
             </Element>
             <Element name="contact">
-                <Contact />
+                <Contact/>
             </Element>
         </div>
     );

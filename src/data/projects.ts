@@ -5,7 +5,7 @@ export const PROJECTS : ProjectData[] = [
     {
         title: "Portfolio",
         description: "Site web qui répertorie tous mes projets",
-        technos: ["typescript", "react"],
+        technos: ["typescript", "react", "tailwind"],
         github: "https://github.com/baptiste100/portfolio"
     },
     {
@@ -23,7 +23,7 @@ export const PROJECTS : ProjectData[] = [
     {
         title: "ABC Web",
         description: "Application web de gestion de livres et d'auteurs",
-        technos: ["typescript", "react"],
+        technos: ["typescript", "react", "tailwind"],
         github: "https://github.com/baptiste100/w42-react-books/tree/main/tp5"
     },
     {

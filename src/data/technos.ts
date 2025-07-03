@@ -9,23 +9,31 @@ import javaIcon from "../assets/icons/java-removebg-preview.png";
 import prismaIcon from "../assets/icons/prisma-removebg-preview.png";
 import unityIcon from "../assets/icons/unity-removebg-preview.png";
 import csharpIcon from "../assets/icons/csharp-removebg-preview.png";
+import springIcon from "../assets/icons/spring-removebg-preview.png";
+import cIcon from "../assets/icons/c-removebg-preview.png";
+import pythonIcon from "../assets/icons/python-removebg-preview.png";
+import tailwindIcon from "../assets/icons/tailwind-removebg-preview.png";
 
 export const TECHNO_INFOS: Record<string, TechnoData> = {
-    "javascript" : {
-        logo: javascriptIcon,
-        lien: "https://developer.mozilla.org/fr/docs/Web/JavaScript"
-    },
-    "typescript" : {
-        logo: typescriptIcon,
-        lien: "https://www.typescriptlang.org/"
+    "java" : {
+        logo: javaIcon,
+        lien: "https://www.java.com/fr/"
     },
     "react" : {
         logo: reactIcon,
         lien: "https://react.dev/"
     },
+    "typescript" : {
+        logo: typescriptIcon,
+        lien: "https://www.typescriptlang.org/"
+    },
     "express" : {
         logo: expressIcon,
         lien: "https://expressjs.com"
+    },
+    "javascript" : {
+        logo: javascriptIcon,
+        lien: "https://developer.mozilla.org/fr/docs/Web/JavaScript"
     },
     "kotlin" : {
         logo: kotlinIcon,
@@ -35,20 +43,32 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
         logo: androidIcon,
         lien: "https://developer.android.com/?hl=fr"
     },
-    "java" : {
-        logo: javaIcon,
-        lien: "https://www.java.com/fr/"
-    },
     "prisma" : {
         logo: prismaIcon,
-        lien: "https://www.prisma.io/"
+        lien: "https://www.prisma.io/orm"
+    },
+    "csharp" : {
+        logo: csharpIcon,
+        lien: "https://dotnet.microsoft.com/fr-fr/languages/csharp#:~:text=C%23%20est%20un%20langage%20de,langages%20de%20programmation%20sur%20GitHub."
+    },
+    "c" : {
+        logo: cIcon,
+        lien: "https://fr.wikipedia.org/wiki/C_(langage)"
+    },
+    "spring" : {
+        logo: springIcon,
+        lien: "https://spring.io/projects/spring-framework"
     },
     "unity" : {
         logo: unityIcon,
         lien: "https://unity.com/fr"
     },
-    "csharp" : {
-        logo: csharpIcon,
-        lien: "https://dotnet.microsoft.com/fr-fr/languages/csharp#:~:text=C%23%20est%20un%20langage%20de,langages%20de%20programmation%20sur%20GitHub."
+    "python" : {
+        logo: pythonIcon,
+        lien: "https://www.python.org/"
+    },
+    "tailwind" : {
+        logo: tailwindIcon,
+        lien: "https://tailwindcss.com/"
     }
 }

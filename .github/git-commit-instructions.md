@@ -26,30 +26,28 @@
 
 ## Exemples rapides
 ```
-feat: ajouter système d'authentification
-fix: corriger bug de validation formulaire
-feat!: modifier API de connexion
-docs: mettre à jour README
-style: formatter le code selon ESLint
-refactor: réorganiser les composants
-test: ajouter tests unitaires pour Contact
-chore: mettre à jour les dépendances
+feat: ajout système d'authentification
+fix: correction bug de validation formulaire
+feat!: modification API de connexion
+docs: mise à jour README
+style: formattage le code selon ESLint
+refactor: réorganisation des composants
+test: ajout de tests unitaires pour Contact
+chore: mise à jour des dépendances
 ```
 
 ## Règles importantes
 1. **Type obligatoire** en minuscules
-2. **Description impérative** (ajouter, corriger, modifier...)
+2. **Description impérative** (ajout, correction, modification...)
 3. **Messages en français** (sauf le type)
 4. **`!` après le type** pour breaking change
 5. **Étendue optionnelle** : `feat(auth):`, `fix(ui):`
 
 ## Breaking Changes
 ```
-feat!: modifier l'API des utilisateurs
+feat!: modification de l'API des utilisateurs
 # OU
-feat: modifier l'API des utilisateurs
+feat: modification de l'API des utilisateurs
 
 BREAKING CHANGE: les endpoints /users ont changé
 ```
-
-Cette version concise permet aux outils de génération automatique de commits de mieux comprendre et appliquer les conventions.
