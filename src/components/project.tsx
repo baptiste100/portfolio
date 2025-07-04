@@ -30,11 +30,11 @@ export default function Project({ title, description, technos, github } : Projec
                     </motion.div>
                 </div>
                 { github &&
-                    <motion.a className="group absolute bottom-5 right-5 flex flex-row border border-white p-2 rounded-lg gap-1 hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customGray hover:border-transparent"
+                    <motion.a className="group absolute bottom-5 right-5 flex flex-row items-center border border-white p-2 rounded-lg gap-1 hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customGray hover:border-transparent"
                               href={github} target="_blank" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }}
                               transition={{ delay: 0.6 }} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
                     >
-                        <p><ExternalLink className="w-5 sm:h-5"/></p>
+                        <ExternalLink className="w-5 sm:h-5"/>
                         <img className="max-w-[25px] block group-hover:hidden" alt="github" src={githubIconWhite}/>
                         <img className="max-w-[25px] hidden group-hover:block" alt="github" src={githubIconBlack}/>
                     </motion.a>
