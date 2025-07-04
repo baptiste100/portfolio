@@ -13,6 +13,9 @@ import springIcon from "../assets/icons/spring-removebg-preview.png";
 import cIcon from "../assets/icons/c-removebg-preview.png";
 import pythonIcon from "../assets/icons/python-removebg-preview.png";
 import tailwindIcon from "../assets/icons/tailwind-removebg-preview.png";
+import nodeIcon from "../assets/icons/node-removebg-preview.png";
+import phpIcon from "../assets/icons/php-removebg-preview.png";
+import laravelIcon from "../assets/icons/laravel-removebg-preview.png";
 
 export const TECHNO_INFOS: Record<string, TechnoData> = {
     "java" : {
@@ -26,6 +29,10 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
     "typescript" : {
         logo: typescriptIcon,
         lien: "https://www.typescriptlang.org/"
+    },
+    "tailwind" : {
+        logo: tailwindIcon,
+        lien: "https://tailwindcss.com/"
     },
     "express" : {
         logo: expressIcon,
@@ -63,12 +70,20 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
         logo: unityIcon,
         lien: "https://unity.com/fr"
     },
+    "node" : {
+        logo: nodeIcon,
+        lien: "https://nodejs.org/en"
+    },
+    "php" : {
+        logo: phpIcon,
+        lien: "https://www.php.net/"
+    },
+    "laravel" : {
+        logo: laravelIcon,
+        lien: "https://laravel.com/"
+    },
     "python" : {
         logo: pythonIcon,
         lien: "https://www.python.org/"
     },
-    "tailwind" : {
-        logo: tailwindIcon,
-        lien: "https://tailwindcss.com/"
-    }
 }

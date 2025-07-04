@@ -17,7 +17,7 @@ export const PROJECTS : ProjectData[] = [
     {
         title: "ABC API",
         description: "API de gestion de livres et d'auteurs",
-        technos: ["typescript", "express", "prisma"],
+        technos: ["typescript", "node" , "express", "prisma"],
         github: ""
     },
     {

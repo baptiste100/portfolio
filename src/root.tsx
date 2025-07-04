@@ -20,6 +20,7 @@ export function OnePageAppNav() {
                 <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customBlack" to="technos"> Technologies </Link>
                 <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customBlack" to="projects"> Projets </Link>
                 <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customBlack" to="contact"> Contact </Link>
+                <Link smooth={true} duration={500} offset={-90} className="p-2 rounded-2xl hover:bg-gradient-to-tl from-colorA via-colorB to-colorA hover:text-customBlack" to="about"> A propos </Link>
             </nav>
         </div>
     )
