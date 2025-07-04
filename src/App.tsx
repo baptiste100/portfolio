@@ -20,12 +20,12 @@ export default function App() {
             <Element name="projects">
                 <Projects/>
             </Element>
-            <div className="flex">
-                <Element name="contact">
-                    <Contact/>
-                </Element>
+            <div className="flex flex-col lg:flex-row-reverse">
                 <Element name="about">
                     <About/>
+                </Element>
+                <Element name="contact">
+                    <Contact/>
                 </Element>
             </div>
         </div>

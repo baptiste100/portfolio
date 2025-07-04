@@ -3,11 +3,11 @@ import githubYellowIcon from "../assets/icons/github-yellow.png"
 import linkedinWhiteIcon from "../assets/icons/linkedin-removebg-preview.png"
 import linkedinYellowIcon from "../assets/icons/linkedin-yellow.png"
 import { Mail, Copy, Check, Download } from "lucide-react";
-import { useState } from "react";
+import {  useState} from "react";
 
 export default function Contact () {
     const [emailCopied, setEmailCopied] = useState(false);
-    const email = "kieffer.baptiste@orange.fr"
+    const email = "kieffer.baptiste(at)orange.fr";
 
     async function copyTextToClipboard(text: string) {
         if ('clipboard' in navigator) {

@@ -19,7 +19,7 @@ export default function Project({ title, description, technos, github } : Projec
                 <motion.p className="text-customLightGray mb-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}>
                     {description}
                 </motion.p>
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between mb-10 sm:mb-0">
                     <motion.div className="flex items-center gap-5" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
                         { technos && technos.map((techno) => (
                             <motion.a key={techno} href={TECHNO_INFOS[techno].lien} target="_blank" initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} whileHover={{ scale: 1.15 }}>
