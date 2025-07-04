@@ -3,6 +3,7 @@ import githubIconBlack from "../assets/icons/github-removebg-preview.png"
 import type {ProjectData, TechnoData} from "../types.ts";
 import { TECHNO_INFOS } from "../data/technos.ts";
 import { motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
 
 export default function Project({ title, description, technos, github } : ProjectData) {
     return (
@@ -33,7 +34,7 @@ export default function Project({ title, description, technos, github } : Projec
                               href={github} target="_blank" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }}
                               transition={{ delay: 0.6 }} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
                     >
-                        <p>🠒</p>
+                        <p><ExternalLink className="w-5 sm:h-5"/></p>
                         <img className="max-w-[25px] block group-hover:hidden" alt="github" src={githubIconWhite}/>
                         <img className="max-w-[25px] hidden group-hover:block" alt="github" src={githubIconBlack}/>
                     </motion.a>
