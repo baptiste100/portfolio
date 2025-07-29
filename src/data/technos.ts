@@ -16,12 +16,10 @@ import tailwindIcon from "../assets/icons/tailwind-removebg-preview.png";
 import nodeIcon from "../assets/icons/node-removebg-preview.png";
 import phpIcon from "../assets/icons/php-removebg-preview.png";
 import laravelIcon from "../assets/icons/laravel-removebg-preview.png";
+import reactNativeIcon from "../assets/icons/react-native-removebg-preview.png";
+import nextIcon from "../assets/icons/nextjs-removebg-preview.png";
 
 export const TECHNO_INFOS: Record<string, TechnoData> = {
-    "java" : {
-        logo: javaIcon,
-        lien: "https://www.java.com/fr/"
-    },
     "react" : {
         logo: reactIcon,
         lien: "https://react.dev/"
@@ -29,6 +27,10 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
     "typescript" : {
         logo: typescriptIcon,
         lien: "https://www.typescriptlang.org/"
+    },
+    "java" : {
+        logo: javaIcon,
+        lien: "https://www.java.com/fr/"
     },
     "tailwind" : {
         logo: tailwindIcon,
@@ -86,4 +88,12 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
         logo: pythonIcon,
         lien: "https://www.python.org/"
     },
+    "react native" : {
+        logo: reactNativeIcon,
+        lien: "https://reactnative.dev/"
+    },
+    "next" : {
+        logo: nextIcon,
+        lien: "https://nextjs.org/"
+    }
 }

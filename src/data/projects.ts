@@ -3,6 +3,18 @@ import type { ProjectData } from "../types.ts";
 
 export const PROJECTS : ProjectData[] = [
     {
+        title: "Quiz FC",
+        description: "Application de quiz de football (projet en cours)",
+        technos: ["typescript", "next", "prisma", "react"],
+        github: ""
+    },
+    {
+        title: "CounterApp",
+        description: "Application de compteur",
+        technos: ["typescript", "react native"],
+        github: ""
+    },
+    {
         title: "Portfolio",
         description: "Site web qui répertorie tous mes projets",
         technos: ["typescript", "react", "tailwind"],
@@ -37,5 +49,5 @@ export const PROJECTS : ProjectData[] = [
         description: "Jeu de gestion RH",
         technos: ["csharp","unity"],
         github: ""
-    }
+    },
 ];
