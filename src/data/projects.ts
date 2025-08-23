@@ -4,9 +4,9 @@ import type { ProjectData } from "../types.ts";
 export const PROJECTS : ProjectData[] = [
     {
         title: "Quiz FC",
-        description: "Application de quiz de football (projet en cours)",
+        description: "Application de quiz de football",
         technos: ["typescript", "next", "prisma", "react"],
-        github: ""
+        github: "https://github.com/baptiste100/quiz-fc"
     },
     {
         title: "CounterApp",
