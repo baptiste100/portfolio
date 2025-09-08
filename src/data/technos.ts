@@ -18,6 +18,7 @@ import phpIcon from "../assets/icons/php-removebg-preview.png";
 import laravelIcon from "../assets/icons/laravel-removebg-preview.png";
 import reactNativeIcon from "../assets/icons/react-native-removebg-preview.png";
 import nextIcon from "../assets/icons/nextjs-removebg-preview.png";
+import nestIcon from "../assets/icons/nest-removebg-preview.png";
 
 export const TECHNO_INFOS: Record<string, TechnoData> = {
     "react" : {
@@ -95,5 +96,9 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
     "next" : {
         logo: nextIcon,
         lien: "https://nextjs.org/"
+    },
+    "nest" : {
+        logo: nestIcon,
+        lien: "https://nestjs.com/"
     }
 }
