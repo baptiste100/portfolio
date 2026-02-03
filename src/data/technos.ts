@@ -11,7 +11,6 @@ import unityIcon from "../assets/icons/unity-removebg-preview.png";
 import csharpIcon from "../assets/icons/csharp-removebg-preview.png";
 import springIcon from "../assets/icons/springboot-removebg-preview.png";
 import cIcon from "../assets/icons/c-removebg-preview.png";
-import pythonIcon from "../assets/icons/python-removebg-preview.png";
 import tailwindIcon from "../assets/icons/tailwind-removebg-preview.png";
 import nodeIcon from "../assets/icons/node-removebg-preview.png";
 import phpIcon from "../assets/icons/php-removebg-preview.png";
@@ -19,6 +18,7 @@ import laravelIcon from "../assets/icons/laravel-removebg-preview.png";
 import reactNativeIcon from "../assets/icons/react-native-removebg-preview.png";
 import nextIcon from "../assets/icons/nextjs-removebg-preview.png";
 import nestIcon from "../assets/icons/nest-removebg-preview.png";
+import tanstackIcon from "../assets/icons/tanstack.png";
 
 export const TECHNO_INFOS: Record<string, TechnoData> = {
     "react" : {
@@ -41,13 +41,13 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
         logo: nodeIcon,
         lien: "https://nodejs.org/en"
     },
-    "express" : {
-        logo: expressIcon,
-        lien: "https://expressjs.com"
-    },
     "nest" : {
         logo: nestIcon,
         lien: "https://nestjs.com/"
+    },
+    "express" : {
+        logo: expressIcon,
+        lien: "https://expressjs.com"
     },
     "prisma" : {
         logo: prismaIcon,
@@ -97,9 +97,8 @@ export const TECHNO_INFOS: Record<string, TechnoData> = {
         logo: laravelIcon,
         lien: "https://laravel.com/"
     },
-    "python" : {
-        logo: pythonIcon,
-        lien: "https://www.python.org/"
+    "tanstack" : {
+        logo: tanstackIcon,
+        lien: "https://tanstack.com/"
     },
-
 }

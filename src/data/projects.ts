@@ -3,6 +3,18 @@ import type { ProjectData } from "../types.ts";
 
 export const PROJECTS : ProjectData[] = [
     {
+        title: "Esup Stages",
+        description: "Plateforme de gestion des stages pour le département informatique de l'IUT",
+        technos: ["typescript", "next", "nest", "prisma"],
+        github: ""
+    },
+    {
+        title: "Strassable",
+        description: "Application web d'aide à l'organisation et à la sécurisation de manifestations sportives en milieu urbain",
+        technos: ["typescript", "tanstack", "react"],
+        github: ""
+    },
+    {
         title: "Nest Notes",
         description: "API de gestion de notes",
         technos: ["typescript", "nest", "prisma"],
