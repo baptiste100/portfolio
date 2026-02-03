@@ -28,10 +28,7 @@ export default function App() {
             <Element name="projects">
                 <Projects/>
             </Element>
-            <div className="flex flex-col lg:flex-row-reverse">
-                <Element name="about">
-                    <About/>
-                </Element>
+            <div className="flex flex-col">
                 <Element name="contact">
                     <Contact/>
                 </Element>
